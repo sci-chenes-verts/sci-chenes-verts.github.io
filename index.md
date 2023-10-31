@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ferme de la Vauzelle
-description: Agriculture biologique, Diversification, Insertion.
+description: Agriculture biologique, Diversification, Insertion, Innovation ouverte et collaborative.
 ---
 <div>
     <iframe 
@@ -29,8 +29,8 @@ Le **31/12/1817**, **Charlotte de Courbon** ceda le domaine de La Roche Courbon 
     </div>
     {% endfor %}
 </div>
-# Gouvernance
-La ferme de La Vauzelle est la propriété de la SCI des chênes verts
+
+# Projets
 
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
@@ -40,24 +40,24 @@ La ferme de La Vauzelle est la propriété de la SCI des chênes verts
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://via.placeholder.com/1200x600/" class="d-block w-100" alt="">
+        <img src="/assets/img/1.jpg" class="d-block w-100" alt="">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h5>Economie circulaire et solidaire</h5>
+          <p>L'association 2Franc6sous propose des objets de seconde main.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x600/" class="d-block w-100" alt="">
+        <img src="/assets/img/2.jpg" class="d-block w-100" alt="">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h5>Horticulture biologique</h5>
+          <p>L'association Floricotte produit des fleurs biologiques à destination des particuliers et professionnels.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x600/" class="d-block w-100" alt="">
+        <img src="/assets/img/3.jpg" class="d-block w-100" alt="">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h5>Nouvelle technologie</h5>
+          <p>L'association OSFarm installe des équipements innovants permettant de mettre en place la géolocalisation centimétrique.</p>
         </div>
       </div>
     </div>
@@ -72,3 +72,9 @@ La ferme de La Vauzelle est la propriété de la SCI des chênes verts
   </div>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+# Mentions légales
+
+La ferme de La Vauzelle est la propriété de la SCI des chênes verts
+[Informations juridiques](https://www.pappers.fr/entreprise/les-chenes-verts-840968499)
+[Nous contacter](mailto:sci-chenes-verts@gmail.com)
