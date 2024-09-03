@@ -8,6 +8,12 @@
 - name: "1983"
   content: "création du GAEC JOULIN Père et Fils avec l'arrivée du fils ainé Christian (4eme génération)." 
   image: /assets/img/christian.jpg
+- name: "1994"
+  content: "Départ de Françis et arrivée des 2 fréres Laurent et Dominique (4eme génération)." 
+  image: /assets/img/christian.jpg
+- name: "2017"
+  content: "Arrêt du GAEC JOULIN" 
+  image: /assets/img/david.jpg
 - name: "2020"
   content: "Reprise du site par la 5eme generation au travers de la SCI des chênes verts." 
   image: /assets/img/david.jpg
