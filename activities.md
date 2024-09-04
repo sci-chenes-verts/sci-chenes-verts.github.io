@@ -6,25 +6,22 @@ description: "3 anneaux pour les embarquer tous"
 <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-# Agriculture biologique diversifiée
+## Agriculture biologique
 
-## Floricotte
+### [Floricotte](https://sites.google.com/floricotte.fr/accueil)
 
-# Innovation
+## Innovation agricole ouverte
 
-## Ekylibre
+### [Ekylibre](https://ekylibre.com)
 
-## OSFarm
+### [OSFarm](https://osfarm.org)
 
-# Stockage
+## Economie sociale et solidaire
 
-# Economie solidaire
+### [3Franc6sous](https://www.facebook.com/3Francs6sous/?locale=fr_FR)
 
-## 2Franc6sous
+### [Tremplin17](https://tremplin17.fr)
 
-# Hébergement
-
-## Tremplin17
 <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

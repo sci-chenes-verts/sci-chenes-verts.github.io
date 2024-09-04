@@ -10,12 +10,12 @@
   image: /assets/img/christian.jpg
 - name: "1994"
   content: "Départ de Françis et arrivée des 2 fréres Laurent et Dominique (4eme génération)." 
-  image: /assets/img/christian.jpg
+  image: /assets/img/3_freres.jpg
 - name: "2017"
-  content: "Arrêt du GAEC JOULIN" 
-  image: /assets/img/david.jpg
+  content: "Arrêt du GAEC JOULIN, Laurent poursuit seul l'exploitation." 
+  image: /assets/img/laurent_seul.jpg
 - name: "2020"
-  content: "Reprise du site par la 5eme generation au travers de la SCI des chênes verts." 
+  content: "Arrêt de l'exploitation et reprise du site par la 5eme generation au travers de la SCI des chênes verts." 
   image: /assets/img/david.jpg
 
 

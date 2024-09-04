@@ -8,8 +8,12 @@ description: "3 anneaux pour les embarquer tous"
 
 # 2025
 
-Réfection de l'ensemble des toitures des batiments et pose de 2800m2 de panneaux photovoltaïques.
+- Réfection de l'ensemble des toitures des batiments et pose de **2800m2 de panneaux photovoltaïques**.
+
+- Aménagement d'un **atelier et d'une zone de formation collaborative** pour l'association [OSFarm](https://osfarm.org)
 
 # 2026
 
-Festival "Un jour en vert"
+- Organisation d'un évènement autour de l'agriculture "open source" : **Les pingouins verts**
+
+- Ré-aménagement de la zone humide : **Projet Lune**
