@@ -3,10 +3,6 @@
   content: "Acceuil de l'association Floricotte : renovation de la partie Irrigation du site. Début de la rénovation de la partie habitation de 650m2" 
   image: /assets/img/floricotte.png
   link: "https://sites.google.com/floricotte.fr/accueil"
-- name: "01/2023 - 3francs6sous"
-  content: "Acceuil de l'association 3Francs6sous pour le stockage de meubles et d'objets de seconde main." 
-  image: /assets/img/3francs6sous.jpg
-  link: "https://www.facebook.com/3Francs6sous/?locale=fr_FR"
 - name: "07/2023 - Ekylibre"
   content: "Acceuil de la société Ekylibre : rénovation de bureaux dans la partie Habitation, mise en place d'un reseau Wifi longue portée extérieur." 
   image: /assets/img/ekylibre.png
@@ -19,6 +15,10 @@
   content: "Acceuil de l'association Tremplin17 et fin de la rénovation de la partie habitation de 650m2." 
   image: /assets/img/tremplin17.svg
   link: "https://tremplin17.fr"
+- name: "01/2025 - Seconde Nature"
+  content: "Acceuil de l'association Seconde Nature qui met en place une recyclerie avec des services associés. Rénovation de 2200 m2 de batiments et d'espace" 
+  image: /assets/img/seconde_nature_logo.png
+  link: "https://www.seconde-nature.net"
 
 
   

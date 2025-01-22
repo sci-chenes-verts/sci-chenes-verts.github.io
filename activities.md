@@ -1,11 +1,8 @@
 ---
 title: Activités
 layout: home
-description: "3 anneaux pour les embarquer tous"
+description:
 ---
-<link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-
 ## Agriculture biologique
 
 ### [Floricotte](https://sites.google.com/floricotte.fr/accueil)
@@ -16,9 +13,11 @@ description: "3 anneaux pour les embarquer tous"
 
 ### [OSFarm](https://osfarm.org)
 
-## Economie sociale et solidaire
+## Recyclerie
 
-### [3Franc6sous](https://www.facebook.com/3Francs6sous/?locale=fr_FR)
+### [Seconde Nature](https://www.seconde-nature.net)
+
+## Economie sociale et solidaire
 
 ### [Tremplin17](https://tremplin17.fr)
 
@@ -30,10 +29,10 @@ description: "3 anneaux pour les embarquer tous"
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/assets/img/1.jpg" class="d-block w-100" alt="">
+        <img src="/assets/img/4.jpg" class="d-block w-100" alt="">
         <div class="carousel-caption d-none d-md-block">
           <h5>Economie circulaire et solidaire</h5>
-          <p>L'association 2Franc6sous propose des objets de seconde main.</p>
+          <p>L'association Seconde Nature propose des objets de seconde main au sein d'une recyclerie.</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -60,5 +59,3 @@ description: "3 anneaux pour les embarquer tous"
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

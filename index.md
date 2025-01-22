@@ -3,9 +3,6 @@ layout: home
 title: Ferme de la Vauzelle
 description: Agriculture biologique, Diversification, Insertion, Innovation ouverte et collaborative.
 ---
-<link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-
 <h1 style="text-align: center;">Bienvenue à La Vauzelle</h1>
 
 Situé dans un écrin de verdure en face des grottes de La Roche Courbon, le site de La Vauzelle est un **tiers lieux** qui acceuille des activités **diversifiées** et **durables** autour de l’**agriculture**, de l’**innovation ouverte** et de l’**économie sociale et solidaire**.
