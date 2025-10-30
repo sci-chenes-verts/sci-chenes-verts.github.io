@@ -1,24 +1,34 @@
 # Add publications concerning technologies and agricultures
-- name: "09/2022 - Floricotte"
+- name: "Floricotte"
   content: "Acceuil de l'association Floricotte : renovation de la partie Irrigation du site. Début de la rénovation de la partie habitation de 650m2" 
   image: /assets/img/floricotte.png
   link: "https://sites.google.com/floricotte.fr/accueil"
-- name: "07/2023 - Ekylibre"
+  year: "Septembre 2022"
+- name: "Ekylibre"
   content: "Acceuil de la société Ekylibre : rénovation de bureaux dans la partie Habitation, mise en place d'un reseau Wifi longue portée extérieur." 
   image: /assets/img/ekylibre.png
   link: "https://ekylibre.com"
-- name: "02/2024 - OSFarm"
+  year: "Septembre 2023"
+- name: "OSFarm"
   content: "Acceuil de l'association OSFarm : mise en place de zone de recherche et developpement, zone de formation et d'autoconstruction pour l'innovation agricole ouverte." 
   image: /assets/img/osfarm.jpeg
   link: "https://osfarm.org"
-- name: "10/2024 - Tremplin17"
+  year: "Février 2024"
+- name: "Tremplin 17"
   content: "Acceuil de l'association Tremplin17 et fin de la rénovation de la partie habitation de 650m2." 
   image: /assets/img/tremplin17.svg
   link: "https://tremplin17.fr"
-- name: "01/2025 - Seconde Nature"
+  year: "Octobre 2024"
+- name: "Seconde Nature"
   content: "Acceuil de l'association Seconde Nature qui met en place une recyclerie avec des services associés. Rénovation de 2200 m2 de batiments et d'espace" 
   image: /assets/img/seconde_nature_logo.png
   link: "https://www.seconde-nature.net"
+  year: "Janvier 2025"
+- name: "Le logis"
+  content: "Acceuil de l'association Le Logis qui met en place une structure d'hébergement social et solidaire pour les jeunes en difficultés de 18 à 30 ans." 
+  image: /assets/img/le-logis.png
+  link: "http://www.logisaintes.net/"
+  year: "Octobre 2025"
 
 
   

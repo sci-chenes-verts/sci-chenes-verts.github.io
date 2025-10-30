@@ -3,9 +3,8 @@ title: Le site
 layout: home
 description: "Description du site de la vauzelle"
 ---
-<link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
+Situé dans un écrin de verdure en face des grottes de La Roche Courbon, le site de La Vauzelle est un **tiers lieux** qui acceuille des activités **diversifiées** et **durables** autour de l’**agriculture**, de l’**innovation ouverte** et de l’**économie sociale et solidaire**.
 
 ## Description
 

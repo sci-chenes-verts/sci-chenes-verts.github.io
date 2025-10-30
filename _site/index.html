@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" crossorigin>
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Ferme de la Vauzelle | SCI des chênes verts</title>
@@ -27,7 +27,7 @@
 
 </head>
 <body class="home">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
   <div class="page-header pt-4 pb-5">
     <div class="container-lg">
@@ -36,60 +36,68 @@
       </div>
       <div class="bigger">La Vauzelle</div>
       <div>
-        <ul>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="/history" class="text-white">Histoire</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="/buildings" class="text-white">Le site</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="/activities" class="text-white">Activités</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="/projects" class="text-white">Projets</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="badge bg-info">Histoire</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                    <li><a class="dropdown-item" href="/history_be_2020">Avant 2020</a></li>
+                    <li><a class="dropdown-item" href="/history_af_2020">Depuis 2020</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/buildings">
+                    <span class="badge bg-secondary">Le site</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/activities">
+                    <span class="badge bg-secondary">Act</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/projects">
+                    <span class="badge bg-secondary">Projets</span>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="badge bg-secondary">Gouvernance</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="/sci">Qui sommes nous</a></li>
+                    <li><a class="dropdown-item" href="/politic">Politique</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
   </div>
     <!-- .full-width here gets closed on support-page.html and home.html layouts -->
 
 
-<h1 style="text-align: center;">Bienvenue à La Vauzelle</h1>
+<h1 style="text-align: center;">Bienvenue !</h1>
 
-<p>Situé dans un écrin de verdure en face des grottes de La Roche Courbon, le site de La Vauzelle est un <strong>tiers lieux</strong> qui acceuille des activités <strong>diversifiées</strong> et <strong>durables</strong> autour de l’<strong>agriculture</strong>, de l’<strong>innovation ouverte</strong> et de l’<strong>économie sociale et solidaire</strong>.</p>
+<h4 style="text-align: center;">Depuis <span class="badge bg-success">2022</span>
+, nous transformons la ferme de La Vauzelle en<span class="badge bg-success">tiers-lieu</span></h4>
 
-<p>Le site est en cours de rénovation et de transformation, si vous avez un projet ou une proposition, n’hésitez pas à nous contacter !</p>
-
-<div class="row">
-    <div class="col d-flex justify-content-center">
-        <div class="card" style="width: 14rem;">
-            <img src="/assets/img/julien.jpeg" class="card-img-top" alt="" />
-            <div class="card-body">
-                <a href="https://www.linkedin.com/in/julien-gautier-a812976/"><h5 class="card-title">Julien GAUTIER</h5></a>
-                <p class="card-text">co-gérant</p>
-            </div>
-        </div>
-    </div>
-    <div class="col d-flex justify-content-center">
-        <div class="card" style="width: 14rem;">
-            <img src="/assets/img/david.jpeg" class="card-img-top" alt="" />
-            <div class="card-body">
-                <a href="https://www.linkedin.com/in/david-joulin-9b629790/"><h5 class="card-title">David JOULIN</h5></a>
-                <p class="card-text">co-gérant</p>
-            </div>
-        </div>
-    </div>
-</div>
+<iframe class="embed-responsive-item" width="100%" height="600px" frameborder="0" allowfullscreen="" allow="geolocation" src="//umap.openstreetmap.fr/fr/map/la-vauzelle_1304861?scaleControl=true&amp;miniMap=true&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true#19/45.827969/-0.784393"></iframe>
 
 
     <footer>
       <div>
-        <a class="text-center f5 mt-4 pt-4" href="mailto:sci.chenes.verts@gmail.com"><span>Contactez nous !</span></a>
-      </div>
-      <div>
         <p class="text-center f5 mt-4 pt-4">&copy; 2020 - 2025 <span>Les Chênes verts</span></p>
       </div>
-      <div>
-        <a class="text-center f5 mt-4 pt-4" href="https://www.pappers.fr/entreprise/les-chenes-verts-840968499" target="_blank"><span>SCI Les Chênes verts | 8, rue du bouil bleu | 17250 SAINT-PORCHAIRE</span></a>
-      </div>
-
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
 

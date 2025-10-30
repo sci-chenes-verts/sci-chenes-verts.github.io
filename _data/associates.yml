@@ -1,0 +1,43 @@
+# Add publications concerning technologies and agricultures
+- name: "David JOULIN"
+  function: "Associé gérant"
+  content: "#agricutlure #startup #innovation"
+  image: /assets/img/david.jpeg
+  link: https://www.linkedin.com/in/david-joulin-9b629790/
+- name: "Julien GAUTIER"
+  function: "Associé gérant"
+  content: "#ecologie #commerce #developpementdurable"
+  image: /assets/img/julien.jpeg
+  link: https://www.linkedin.com/in/julien-gautier-a812976/
+- name: "Vincent JOULIN"
+  function: "Associé gérant"
+  content: "#informatique #astronomie #espace" 
+  image: /assets/img/vincent.jpeg
+  link: https://www.linkedin.com/in/vincent-joulin-a1310a81/
+- name: "Lola JOULIN-BENSOUSSAN"
+  function: "Associée"
+  content: "#culture #théâtre #arts" 
+  image: /assets/img/lola.jpeg
+  link: https://www.linkedin.com/in/lola-joulin-618157139/
+- name: "Cécile SABLON"
+  function: "Associée"
+  content: "#medecine #ophtalmologie #santé"
+  image: /assets/img/cecile.jpg
+  link: https://www.facebook.com/sablon.cecile
+- name: "Marianne JOULIN"
+  function: "Associée"
+  content: "#enseignement #éducation #politique"
+  image: /assets/img/marianne.jpg
+  link: https://www.facebook.com/marianne.joulin?locale=fr_FR
+- name: "Hugo JOULIN"
+  function: "Associé"
+  content: "#enseignement #mathématiques #kravmaga"
+  image: /assets/img/hugo.jpg
+  link: https://www.facebook.com/hugo.joulin.73/
+
+
+
+  
+
+
+  
