@@ -4,7 +4,7 @@ layout: home
 description: "3 anneaux pour les embarquer tous"
 ---
 <div class="row">
-    <div id="container" style="height: 600px"></div>
+    <div id="container" style="height: 700px"></div>
     <script type="text/javascript">
     var dom = document.getElementById('container');
     var myChart = echarts.init(dom, null, {
@@ -24,12 +24,18 @@ description: "3 anneaux pour les embarquer tous"
     });
     option = {
         title: {
-        text: 'Interactions La Vauzelle',
-        subtext: 'Default layout',
-        top: 'bottom',
-        left: 'right'
+        text: 'Interactions des projets au sein du tiers-lieu',
+        top: 'auto',
+        left: 'center'
         },
         tooltip: {},
+        toolbox: {
+            show: true,
+            feature: {
+                restore: {},
+                saveAsImage: {}
+            }
+        },
         legend: [
         {
             // selectedMode: 'single',

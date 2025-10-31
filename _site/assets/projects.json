@@ -6,7 +6,7 @@
         "symbolSize": 100,
         "x": 0,
         "y": 0,
-        "value": 2020
+        "value": "Tiers-lieu"
       },
       {
         "id": "1",
@@ -14,7 +14,7 @@
         "symbolSize": 50,
         "x": -200,
         "y": 200,
-        "value": 2025,
+        "value": "Recyclerie / Magasin ouvert en Juin 2025",
         "category": 2
       },
       {
@@ -22,9 +22,9 @@
         "name": "O2",
         "symbolSize": 30,
         "symbol": "diamond",
-        "x": 100,
-        "y": 100,
-        "value": 2023,
+        "x": 150,
+        "y": -200,
+        "value": "Dispositif d'insertion par l'activité économique",
         "category": 1
       },
       {
@@ -32,26 +32,26 @@
         "name": "Saint Fiacre",
         "symbolSize": 50,
         "x": 200,
-        "y": 200,
-        "value": 2023,
+        "y": -300,
+        "value": "Association d'insertion partenaire depuis 2023",
         "category": 1
       },
       {
         "id": "4",
         "name": "Cyclad",
         "symbolSize": 50,
-        "x": -400,
-        "y": -200,
-        "value": 2023,
+        "x": -300,
+        "y": -100,
+        "value": "Convention de partenariat signée en Mai 2025",
         "category": 5
       },
       {
         "id": "5",
         "name": "Décheterie de Plassay",
         "symbolSize": 50,
-        "x": -300,
-        "y": 0,
-        "value": 2023,
+        "x": -250,
+        "y": -50,
+        "value": "1 container de collecte / réemploi installé en Juin 2025",
         "category": 5
       },
       {
@@ -60,7 +60,7 @@
         "symbolSize": 50,
         "x": 0,
         "y": -400,
-        "value": 2025,
+        "value": "association sociale basée à Saintes",
         "category": 1
       },
       {
@@ -70,7 +70,7 @@
         "symbol": "diamond",
         "x": 0,
         "y": -200,
-        "value": 2025,
+        "value": "5 places dans la maison du tiers-lieu",
         "category": 1
       },
       {
@@ -90,17 +90,17 @@
         "symbol": "image://assets/img/icon-group.png",
         "x": 100,
         "y": -200,
-        "value": 2025,
+        "value": "Territoire de la CDC Coeur de Saintonge",
         "category": 6
       },
       {
         "id": "10",
-        "name": "Adhérents / Bénévoles",
+        "name": "Adhérents / Bénévoles / Clients",
         "symbolSize": 30,
         "symbol": "image://assets/img/icon-group.png",
         "x": -500,
-        "y": 300,
-        "value": 200,
+        "y": 50,
+        "value": "30 Bénévoles actifs, 200 adhérents et 500 clients en 2025",
         "category": 6
       },
       {
@@ -109,17 +109,17 @@
         "symbolSize": 50,
         "x": 300,
         "y": 0,
-        "value": 2023,
+        "value": "Arrivé en 2022, floriculture biologique par l'insertion",
         "category": 0
       },
       {
         "id": "12",
-        "name": "Production de fleurs en insertion",
+        "name": "Production de fleurs",
         "symbolSize": 30,
         "symbol": "diamond",
         "x": 150,
         "y": 0,
-        "value": 2025,
+        "value": "1Ha de fleurs bio",
         "category": 0
       },
       {
@@ -128,7 +128,7 @@
         "symbolSize": 30,
         "symbol": "diamond",
         "x": -300,
-        "y": 150,
+        "y": 200,
         "value": 2025,
         "category": 2
       },
@@ -138,17 +138,17 @@
         "symbolSize": 30,
         "symbol": "image://assets/img/icon-enterprise.png",
         "x": -500,
-        "y": 100,
+        "y": 200,
         "value": 200,
         "category": 6
       },
       {
         "id": "15",
-        "name": "Ecole maternelle de Saint-Porchaire",
+        "name": "Ecole de Saint-Porchaire",
         "symbolSize": 50,
         "x": -200,
         "y": -350,
-        "value": 2025,
+        "value": "Section Maternelle",
         "category": 4
       },
       {
@@ -176,8 +176,8 @@
         "name": "OSFarm",
         "symbolSize": 50,
         "x": 300,
-        "y": -200,
-        "value": 2025,
+        "y": 200,
+        "value": "Association pour le développement des technologies agricoles ouvertes et innovantes",
         "category": 3
       },
       {
@@ -187,7 +187,7 @@
         "symbol": "image://assets/img/icon-university.png",
         "x": 500,
         "y": -100,
-        "value": 5,
+        "value": "La Rochelle, Bordeaux, Limoges et Pau",
         "category": 3
       },
       {
@@ -195,9 +195,9 @@
         "name": "GORT",
         "symbolSize": 30,
         "symbol": "diamond",
-        "x": 300,
-        "y": -100,
-        "value": 2025,
+        "x": 350,
+        "y": 100,
+        "value": "Robotique agricole interopérable",
         "category": 3
       },
       {
@@ -206,8 +206,8 @@
         "symbolSize": 30,
         "symbol": "image://assets/img/icon-farmer.png",
         "x": 550,
-        "y": -300,
-        "value": 5,
+        "y": 200,
+        "value": "Territoire régionnal",
         "category": 0
       },
       {
@@ -215,15 +215,87 @@
         "name": "Coopérative / OPA",
         "symbolSize": 30,
         "symbol": "image://assets/img/icon-enterprise.png",
-        "x": 300,
-        "y": -400,
+        "x": 550,
+        "y": 50,
         "value": 5,
         "category": 0
+      },
+      {
+        "id": "23",
+        "name": "Repair-Café",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": 50,
+        "y": 200,
+        "value": "Repair Café et Fablab",
+        "category": 3
+      },
+      {
+        "id": "24",
+        "name": "Ekylibre",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-enterprise.png",
+        "x": 150,
+        "y": 100,
+        "value": "Startup dans l'IA, la data et les logiciels libres agricoles",
+        "category": 3
+      },
+      {
+        "id": "25",
+        "name": "Magasin",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": -300,
+        "y": 100,
+        "value": "Ouverture Juin 2025, 12000 objets réemployés, 2500m2",
+        "category": 2
+      },
+      {
+        "id": "26",
+        "name": "Camera IA recyclerie",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": 50,
+        "y": 150,
+        "value": "Projet de R&D en cours gestion des stocks par IA",
+        "category": 3
+      },
+      {
+        "id": "27",
+        "name": "Mairie",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-enterprise.png",
+        "x": -400,
+        "y": -200,
+        "value": "Mairie de Saint-Porchaire",
+        "category": 3
+      },
+      {
+        "id": "28",
+        "name": "CDC",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-enterprise.png",
+        "x": -400,
+        "y": -100,
+        "value": "Communauté de Communes Coeur de Saintonge",
+        "category": 3
       }
     ],
     "links": [
       {
         "source": "1",
+        "target": "0"
+      },
+      {
+        "source": "4",
+        "target": "28"
+      },
+      {
+        "source": "27",
+        "target": "28"
+      },
+      {
+        "source": "27",
         "target": "0"
       },
       {
@@ -248,7 +320,12 @@
       },
        {
         "source": "5",
-        "target": "8"
+        "target": "8",
+        "value": "Convention",
+        "label": {
+          "show": true,
+          "formatter": "{c}"
+        }
       },
       {
         "source": "0",
@@ -325,31 +402,93 @@
       {
         "source": "18",
         "target": "21"
+      },
+      {
+        "source": "20",
+        "target": "11"
+      },
+      {
+        "source": "1",
+        "target": "23"
+      },
+      {
+        "source": "18",
+        "target": "23",
+        "value": "Dossier LEADER",
+        "label": {
+          "show": true,
+          "formatter": "{c}"
+        }
+      },
+      {
+        "source": "0",
+        "target": "24"
+      },
+      {
+        "source": "25",
+        "target": "10"
+      },
+      {
+        "source": "25",
+        "target": "1"
+      },
+      {
+        "source": "10",
+        "target": "8"
+      },
+      {
+        "source": "26",
+        "target": "24"
+      },
+      {
+        "source": "26",
+        "target": "1"
       }
     ],
     "categories": [
       {
         "name": "Agriculture",
-        "symbol": "circle"
+        "symbol": "circle",
+        "itemStyle": {
+            "color": "#a3d39c"
+         }
       },
       {
         "name": "Insertion",
-        "symbol": "circle"
+        "symbol": "circle",
+        "itemStyle": {
+            "color": "#f4b183"
+         }
       },
       {
-        "name": "Reemploi"
+        "name": "Reemploi",
+        "itemStyle": {
+            "color": "#9fc5e8"
+         }
       },
       {
-        "name": "Innovation"
+        "name": "Innovation",
+        "itemStyle": {
+            "color": "#c27ba0"
+         }
       },
       {
-        "name": "Education"
+        "name": "Education",
+        "itemStyle": {
+            "color": "#ffd966"
+         }
       },
       {
-        "name": "Recyclage"
+        "name": "Recyclage",
+        "itemStyle": {
+            "color": "#e06666"
+         }
       },
       {
-        "name": "Habitants"
+        "name": "Habitants",
+        "itemStyle": {
+            "color": "#8e7cc3"
+         }
       }
     ]
   }
