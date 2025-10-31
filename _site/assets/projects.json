@@ -6,15 +6,14 @@
         "symbolSize": 100,
         "x": 0,
         "y": 0,
-        "value": 2020,
-        "category": 0
+        "value": 2020
       },
       {
         "id": "1",
         "name": "Seconde Nature",
         "symbolSize": 50,
-        "x": -400,
-        "y": 400,
+        "x": -200,
+        "y": 200,
         "value": 2025,
         "category": 2
       },
@@ -50,7 +49,7 @@
         "id": "5",
         "name": "Décheterie de Plassay",
         "symbolSize": 50,
-        "x": -400,
+        "x": -300,
         "y": 0,
         "value": 2023,
         "category": 5
@@ -79,10 +78,10 @@
         "name": "Collecte objets réemployables",
         "symbolSize": 30,
         "symbol": "diamond",
-        "x": -400,
-        "y": 200,
+        "x": -200,
+        "y": 100,
         "value": 2025,
-        "category": 2
+        "category": 5
       },
       {
         "id": "9",
@@ -93,6 +92,133 @@
         "y": -200,
         "value": 2025,
         "category": 6
+      },
+      {
+        "id": "10",
+        "name": "Adhérents / Bénévoles",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-group.png",
+        "x": -500,
+        "y": 300,
+        "value": 200,
+        "category": 6
+      },
+      {
+        "id": "11",
+        "name": "Floricotte",
+        "symbolSize": 50,
+        "x": 300,
+        "y": 0,
+        "value": 2023,
+        "category": 0
+      },
+      {
+        "id": "12",
+        "name": "Production de fleurs en insertion",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": 150,
+        "y": 0,
+        "value": 2025,
+        "category": 0
+      },
+      {
+        "id": "13",
+        "name": "Partenariat Materiaux",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": -300,
+        "y": 150,
+        "value": 2025,
+        "category": 2
+      },
+      {
+        "id": "14",
+        "name": "Artisans",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-enterprise.png",
+        "x": -500,
+        "y": 100,
+        "value": 200,
+        "category": 6
+      },
+      {
+        "id": "15",
+        "name": "Ecole maternelle de Saint-Porchaire",
+        "symbolSize": 50,
+        "x": -200,
+        "y": -350,
+        "value": 2025,
+        "category": 4
+      },
+      {
+        "id": "16",
+        "name": "Ecole verte",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": -200,
+        "y": -250,
+        "value": 2025,
+        "category": 4
+      },
+      {
+        "id": "17",
+        "name": "Eleves",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-group.png",
+        "x": -350,
+        "y": -350,
+        "value": 200,
+        "category": 6
+      },
+      {
+        "id": "18",
+        "name": "OSFarm",
+        "symbolSize": 50,
+        "x": 300,
+        "y": -200,
+        "value": 2025,
+        "category": 3
+      },
+      {
+        "id": "19",
+        "name": "Université / Chercheur",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-university.png",
+        "x": 500,
+        "y": -100,
+        "value": 5,
+        "category": 3
+      },
+      {
+        "id": "20",
+        "name": "GORT",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": 300,
+        "y": -100,
+        "value": 2025,
+        "category": 3
+      },
+      {
+        "id": "21",
+        "name": "Agriculteurs",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-farmer.png",
+        "x": 550,
+        "y": -300,
+        "value": 5,
+        "category": 0
+      },
+      {
+        "id": "22",
+        "name": "Coopérative / OPA",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-enterprise.png",
+        "x": 300,
+        "y": -400,
+        "value": 5,
+        "category": 0
       }
     ],
     "links": [
@@ -139,6 +265,66 @@
       {
         "source": "9",
         "target": "2"
+      },
+      {
+        "source": "10",
+        "target": "1"
+      },
+      {
+        "source": "11",
+        "target": "3"
+      },
+      {
+        "source": "12",
+        "target": "0"
+      },
+      {
+        "source": "11",
+        "target": "12"
+      },
+      {
+        "source": "13",
+        "target": "14"
+      },
+      {
+        "source": "13",
+        "target": "1"
+      },
+      {
+        "source": "15",
+        "target": "16"
+      },
+      {
+        "source": "16",
+        "target": "0"
+      },
+      {
+        "source": "16",
+        "target": "17"
+      },
+      {
+        "source": "18",
+        "target": "20"
+      },
+      {
+        "source": "19",
+        "target": "20"
+      },
+      {
+        "source": "18",
+        "target": "0"
+      },
+      {
+        "source": "21",
+        "target": "22"
+      },
+      {
+        "source": "22",
+        "target": "18"
+      },
+      {
+        "source": "18",
+        "target": "21"
       }
     ],
     "categories": [
