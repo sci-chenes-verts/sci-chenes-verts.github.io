@@ -4,8 +4,6 @@ layout: home
 description: "Description du site de la vauzelle"
 ---
 
-Situé dans un écrin de verdure en face des grottes de La Roche Courbon, le site de La Vauzelle est un **tiers lieux** qui acceuille des activités **diversifiées** et **durables** autour de l’**agriculture**, de l’**innovation ouverte** et de l’**économie sociale et solidaire**.
-
 ## Description
 
 Le site regroupe **32 Ha** de parcelles converties à l'**agriculture biologique** en 2017 dont 11Ha sont irrigables.

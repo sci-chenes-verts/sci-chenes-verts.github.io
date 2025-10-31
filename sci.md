@@ -3,10 +3,10 @@ title: Qui sommes nous
 layout: home
 description: "3 anneaux pour les embarquer tous"
 ---
-
+<br>
 <h4 style="text-align: center;">Depuis <span class="badge bg-success">2020</span>
-, la ferme de La Vauzelle est la propriété des<span class="badge bg-success">Chênes verts</span> qui est une SCI familiale composée de cousins / cousines issues de la famille JOULIN</h4>
-
+, la ferme de La Vauzelle est la propriété des<span class="badge bg-success">Chênes verts</span> qui est une société familiale composée de profils <span class="badge bg-success">experts, atypiques et complémentaires</span></h4>
+<br>
 <div class="row">
     {% for ty in site.data.associates %}
     <div class="col d-flex justify-content-center">
@@ -21,8 +21,3 @@ description: "3 anneaux pour les embarquer tous"
     </div>
     {% endfor %}
 </div>
-
-
-<div><a class="text-center f5 mt-4 pt-4" href="https://www.pappers.fr/entreprise/les-chenes-verts-840968499" target="_blank"><span>SCI Les Chênes verts | 8, rue du bouil bleu | 17250 SAINT-PORCHAIRE</span></a></div>
-
-<div><a class="text-center f5 mt-4 pt-4" href="mailto:sci.chenes.verts@gmail.com"><span>Contactez nous !</span></a></div>

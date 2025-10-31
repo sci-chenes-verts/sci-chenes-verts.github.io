@@ -3,18 +3,77 @@ title: Projets
 layout: home
 description: "3 anneaux pour les embarquer tous"
 ---
-# 2025
+<div class="row">
+    <div id="container" style="height: 600px"></div>
+    <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    var option;
 
-- Réfection de l'ensemble des toitures des batiments et pose de **2800m2 de panneaux photovoltaïques**.
+    myChart.showLoading();
+    $.getJSON('/assets/projects.json', function (graph) {
+    myChart.hideLoading();
+    graph.nodes.forEach(function (node) {
+        node.label = {
+        show: node.symbolSize > 30
+        };
+    });
+    option = {
+        title: {
+        text: 'Interactions La Vauzelle',
+        subtext: 'Default layout',
+        top: 'bottom',
+        left: 'right'
+        },
+        tooltip: {},
+        legend: [
+        {
+            // selectedMode: 'single',
+            data: graph.categories.map(function (a) {
+            return a.name;
+            })
+        }
+        ],
+        animationDuration: 1500,
+        animationEasingUpdate: 'quinticInOut',
+        series: [
+        {
+            name: 'Tiers lieu La Vauzelle',
+            type: 'graph',
+            legendHoverLink: false,
+            layout: 'none',
+            data: graph.nodes,
+            links: graph.links,
+            categories: graph.categories,
+            roam: true,
+            label: {
+            position: 'right',
+            formatter: '{b}'
+            },
+            lineStyle: {
+            color: 'source',
+            curveness: 0.3
+            },
+            emphasis: {
+            focus: 'adjacency',
+            lineStyle: {
+                width: 10
+            }
+            }
+        }
+        ]
+    };
+    myChart.setOption(option);
+    });
 
-- Aménagement d'un **atelier et d'une zone de formation collaborative, fablab et repair café** pour l'association [OSFarm](https://www.osfarm.org) et [Seconde Nature](https://www.seconde-nature.net)
+        if (option && typeof option === 'object') {
+        myChart.setOption(option);
+        }
 
-# 2026
-
-- Organisation d'un évènement autour de l'agriculture "open source" : **Les pingouins verts**
-
-# 2027
-
-- Ré-aménagement de la zone humide : **Projet Lune**
-
-- Agrandissement de **zone de recyclerie** pour l'association [Seconde Nature](https://www.seconde-nature.net) dans le cadre des appels à projets **3R**
+        window.addEventListener('resize', myChart.resize);
+    </script>
+  </div>

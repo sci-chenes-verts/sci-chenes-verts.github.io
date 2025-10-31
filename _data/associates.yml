@@ -1,12 +1,12 @@
 # Add publications concerning technologies and agricultures
 - name: "David JOULIN"
   function: "Associé gérant"
-  content: "#agricutlure #startup #innovation"
+  content: "#agriculture #startup #innovation #ingenierie"
   image: /assets/img/david.jpeg
   link: https://www.linkedin.com/in/david-joulin-9b629790/
 - name: "Julien GAUTIER"
   function: "Associé gérant"
-  content: "#ecologie #commerce #developpementdurable"
+  content: "#ecologie #commerce #developpementdurable #partenariat"
   image: /assets/img/julien.jpeg
   link: https://www.linkedin.com/in/julien-gautier-a812976/
 - name: "Vincent JOULIN"

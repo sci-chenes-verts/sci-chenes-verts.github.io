@@ -1,0 +1,169 @@
+{
+    "nodes": [
+      {
+        "id": "0",
+        "name": "La Vauzelle",
+        "symbolSize": 100,
+        "x": 0,
+        "y": 0,
+        "value": 2020,
+        "category": 0
+      },
+      {
+        "id": "1",
+        "name": "Seconde Nature",
+        "symbolSize": 50,
+        "x": -400,
+        "y": 400,
+        "value": 2025,
+        "category": 2
+      },
+      {
+        "id": "2",
+        "name": "O2",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": 100,
+        "y": 100,
+        "value": 2023,
+        "category": 1
+      },
+      {
+        "id": "3",
+        "name": "Saint Fiacre",
+        "symbolSize": 50,
+        "x": 200,
+        "y": 200,
+        "value": 2023,
+        "category": 1
+      },
+      {
+        "id": "4",
+        "name": "Cyclad",
+        "symbolSize": 50,
+        "x": -400,
+        "y": -200,
+        "value": 2023,
+        "category": 5
+      },
+      {
+        "id": "5",
+        "name": "Décheterie de Plassay",
+        "symbolSize": 50,
+        "x": -400,
+        "y": 0,
+        "value": 2023,
+        "category": 5
+      },
+      {
+        "id": "6",
+        "name": "Le Logis",
+        "symbolSize": 50,
+        "x": 0,
+        "y": -400,
+        "value": 2025,
+        "category": 1
+      },
+      {
+        "id": "7",
+        "name": "Hébergement jeunes en difficulté",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": 0,
+        "y": -200,
+        "value": 2025,
+        "category": 1
+      },
+      {
+        "id": "8",
+        "name": "Collecte objets réemployables",
+        "symbolSize": 30,
+        "symbol": "diamond",
+        "x": -400,
+        "y": 200,
+        "value": 2025,
+        "category": 2
+      },
+      {
+        "id": "9",
+        "name": "Jeunes de 18-30 ans en difficulté",
+        "symbolSize": 30,
+        "symbol": "image://assets/img/icon-group.png",
+        "x": 100,
+        "y": -200,
+        "value": 2025,
+        "category": 6
+      }
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "0"
+      },
+      {
+        "source": "2",
+        "target": "0"
+      },
+      {
+        "source": "2",
+        "target": "1"
+      },
+      {
+        "source": "2",
+        "target": "3"
+      },
+      {
+        "source": "4",
+        "target": "5"
+      },
+      {
+        "source": "1",
+        "target": "8"
+      },
+       {
+        "source": "5",
+        "target": "8"
+      },
+      {
+        "source": "0",
+        "target": "7"
+      },
+      {
+        "source": "6",
+        "target": "7"
+      },
+      {
+        "source": "9",
+        "target": "7"
+      },
+      {
+        "source": "9",
+        "target": "2"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Agriculture",
+        "symbol": "circle"
+      },
+      {
+        "name": "Insertion",
+        "symbol": "circle"
+      },
+      {
+        "name": "Reemploi"
+      },
+      {
+        "name": "Innovation"
+      },
+      {
+        "name": "Education"
+      },
+      {
+        "name": "Recyclage"
+      },
+      {
+        "name": "Habitants"
+      }
+    ]
+  }
